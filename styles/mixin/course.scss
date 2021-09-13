@@ -1,0 +1,247 @@
+.main_course{
+	min-height:120vh;
+	height:auto;
+	padding-top:15em;
+	background:rgb(245,245,245);
+	font-family: sans-serif ,Microsoft JhengHei;
+
+
+	.course_header{
+		position:absolute;
+		top:80px;
+		width:100%;
+		height: 80px;
+		background:#FFF2CC;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		padding:0 200px;
+		div{
+
+		}
+		ul{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			list-style:none;
+			
+			li{
+				width: 125px;
+				border-right: 2px solid #000;
+				text-align:center;
+				font-size :18px;
+				position:relative;
+				a{
+					text-decoration:none;
+					color:#000;
+					&:hover{
+						color:#2FBCF4;
+					}
+				}
+				ul{
+					position:relative;
+					position:absolute;
+					background:#fff;
+					top:30px;
+					left:0;
+					width:120px;
+					height: 100px;
+					display:flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items:center;
+					border:2px #000 solid;
+					border-top: none;
+					display:none;
+					li{
+						border:none;
+						border-bottom:1px #ccc solid;
+						width: 100%;
+						height:50px;
+						display: flex;
+						justify-content: center;
+						align-items:center;
+						&:hover{
+							background:#ccc;
+						}
+						a{
+						color:#000;
+						text-decoration:none;
+					}
+					}
+					
+				}
+			}
+		}
+	}
+
+	.course_menu{
+		position:absolute;
+		top:160px;
+		left:-250px;
+		width:250px;
+		height:calc(120vh - 160px);
+		background:#EEE7DC;
+		padding:20px;
+		font-size:20px;
+		overflow-y:scroll;
+		transition:.5s ease;
+		&::-webkit-scrollbar{
+			display:none;
+		}
+		h3{
+			margin-bottom:40px;
+		}
+		ul{
+			list-style:none;
+			margin-bottom: 20px;
+			li{
+				margin-bottom:5px;
+				cursor:pointer;
+				font-weight:bold;
+				&:hover{
+					color:#2FBCF4;
+				}
+			  }
+			  .course_menu_con{
+			  	display:none;
+			  }
+			  div{
+
+              p{
+			  	margin-left:2em;
+			  	margin-bottom:15px;
+			  	cursor:pointer;
+			  	position:relative;
+			  
+			  	&:hover{
+			  		color:#2FBCF4;
+			  	}
+			  }
+				div{
+				width:150px;
+				height:35px;
+				border:1px #000 solid;
+				background:#aaa;
+				text-align:center;
+				line-height: 35px;
+				margin-left:2em;
+				margin-bottom:5px;
+				cursor:pointer;
+				&:hover{
+					background:#ddd;
+				}
+				a{
+					text-decoration:none;
+				}
+			}
+			  }
+			 
+		}
+	}
+
+	.course_centent{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+		.menu_open_btn{
+			width:50px;
+			height:50px;
+			border-radius:5px;
+			position:fixed;
+			top:300px;
+			right:50px;
+			background:#EFA238;
+			cursor:pointer;
+			i{
+				font-size:30px;
+				display:flex;
+				justify-content: center;
+				line-height: 50px;
+				color:#F5F4DC;
+			}
+		}
+
+		h4{
+			width:800px;
+			height:40px;
+			border-bottom:1px #333 solid;
+			font-size:24px;
+			padding-left:20px;
+			margin-bottom:20px;
+		}
+		table{
+			margin-bottom:50px;
+			width:70%;
+			.course_hwtitle{
+				background:#F8CBAD;
+				font-size:20px;
+			}
+			th{
+				height:30px;
+				background:#fff;
+			}
+		}
+		
+		.course_centent_text{
+			div{
+				display:flex;
+				margin-bottom:20px;
+				h5{
+				font-size:20px;
+				font-weight:400;
+				}
+				a{
+					font-size:18px;
+					font-style: italic;
+					color:#41719C;
+				}
+				div{
+					display:flex;
+					flex-direction: column;
+					a{
+						margin-bottom:5px;
+					}
+				}
+				input[type="submit"]{
+					width:100px;
+					height:35px;
+					cursor:pointer;
+					background:#F8CBAD;
+					outline:none;
+					border:none;
+					margin-right: 20px;
+					color:#333;
+					&:hover{
+						background:#FF9C63;
+						transition:.5s ease;
+					}
+
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.main_course .course_header div{
+		display:flex;
+		h1{
+			width:100px;
+		}
+		h2{
+			width:200px;
+		}
+	}
+}
+@media screen and (max-width:768px) {
+	.main_course .course_centent table{
+		width:90%;
+	}
+	.course_centent .menu_open_btn{
+		display:block
+	}
+
+	
+}
