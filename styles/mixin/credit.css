@@ -1,0 +1,78 @@
+.credit_main {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: #fff2cc;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5em;
+}
+.credit_main .credit_title {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background: #F4B183;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  font-weight: 600;
+}
+.credit_main .credit_year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+}
+.credit_main .credit_year a {
+  width: 150px;
+  height: 40px;
+  border-bottom: 1px solid #A0B4DC;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 10px;
+  text-align: center;
+}
+.credit_main .credit_year a:hover {
+  border-bottom: 2px solid #5B9BD5;
+}
+.credit_main table {
+  width: 80%;
+}
+.credit_main table tr:nth-child(odd) {
+  background: #EAEFF7;
+}
+.credit_main table tr:nth-child(even) {
+  background: #D2DEEF;
+}
+.credit_main table tr th {
+  font-size: 18px;
+  height: 40px;
+}
+.credit_main span {
+  margin-top: 30px;
+}
+.credit_main span a {
+  font-size: 24px;
+  color: #5B9BD5;
+  font-weight: 600;
+}
+.credit_main span a i {
+  color: #FF6D6D;
+  margin-right: 5px;
+}

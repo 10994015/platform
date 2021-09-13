@@ -1,0 +1,99 @@
+.personalclass_main {
+  min-height: 120vh;
+  height: auto;
+  background: #FFF2CC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 8em;
+}
+.personalclass_main .personalclass_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+.personalclass_main .personalclass_btn input[type=submit] {
+  background: #fff;
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 35px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.personalclass_main .personalclass_btn input[type=submit]:hover {
+  background: #ccc;
+}
+.personalclass_main .item {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.personalclass_main .item img {
+  width: 100%;
+}
+.personalclass_main .item img:hover {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.personalclass_main .item .items {
+  border-left: 5px #ED7D31 solid;
+}
+.personalclass_main .item .items .itemss {
+  margin-top: 10px;
+}
+.personalclass_main .item .items .itemss p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.personalclass_main .item .items .itemss p i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.personalclass_main .item .items .itemss h1 {
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+.personalclass_main .item .items .itemss h2 {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22px;
+}
+.personalclass_main .item .items .itemss h2 i {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.personalclass_main .item .items .itemss span {
+  font-weight: bold;
+  font-size: 18px;
+}

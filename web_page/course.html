@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/mixin/course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<title>Document</title>
+</head>
+<body>
+	 <nav class="sm_nav" id="sm_nav">
+                <li><a href="">精選課程</a></li>
+                <a href=""><li>行事曆</a></li>
+                <a href=""><li>常見問答</a></li>
+                <a href=""><li>我要開課</a></li>
+                <a href=""><li>登入</a></li>
+                <a href=""><li>註冊</a></li>
+            </nav>
+    <header id="header" class="">
+        <div class="brand">
+            <a href="./index.html"><img src="../styles/images/logo.png" alt=""></a>
+            <input type="text" name="" value="" placeholder="搜尋課程"><i class="fas fa-search" style="margin-left: 5px;"></i>
+        </div>
+        <ul class="navigation">
+            <li onmouseover="nav_over(1)" onmouseout="nav_out(1)"><a href="##" title=""><i class="fas fa-book-open"></i>精選課程</a>
+                <ul id="navigation_over1">
+                    <li><a href="">如何開始</a></li>
+                    <li><a href="">新手引導</a></li>
+                    <li><a href="">線上支援</a></li>
+                    <li><a href="">教學影片</a></li>
+                    <li><a href="">使用手冊</a></li>
+                    <li><a href="">Q&A</a></li>
+                </ul>
+               </li>
+               <li onmouseover="nav_over(2)" onmouseout="nav_out(2)"><a href="##" title=""><i class="fas fa-calendar-alt"></i>行事曆</a>
+                <ul id="navigation_over2">
+                    <li><a href="">如何開始</a></li>
+                    <li><a href="">新手引導</a></li>
+                    <li><a href="">線上支援</a></li>
+                    <li><a href="">教學影片</a></li>
+                    <li><a href="">使用手冊</a></li>
+                    <li><a href="">Q&A</a></li>
+                </ul>
+               </li>
+               <li onmouseover="nav_over(3)" onmouseout="nav_out(3)"><a href="##" title=""><i class="fas fa-question"></i>常見問答</a>
+                <ul id="navigation_over3">
+                    <li><a href="">如何開始</a></li>
+                    <li><a href="">新手引導</a></li>
+                    <li><a href="">線上支援</a></li>
+                    <li><a href="">教學影片</a></li>
+                    <li><a href="">使用手冊</a></li>
+                    <li><a href="">Q&A</a></li>
+                </ul>
+               </li>
+            <li onmouseover="nav_over(4)" onmouseout="nav_out(4)"><a href="##" title=""><i class="fas fa-pen"></i>我要開課</a>
+            <ul id="navigation_over4">
+                <li><a href="">如何開始</a></li>
+                <li><a href="">新手引導</a></li>
+                <li><a href="">線上支援</a></li>
+                <li><a href="">教學影片</a></li>
+                <li><a href="">使用手冊</a></li>
+                <li><a href="">Q&A</a></li>
+            </ul>
+           </li>
+           <li onmouseover="nav_over(5)" onmouseout="nav_out(5)"><a href="##" title=""><i class="fas fa-chalkboard-teacher"></i>Cynthia V</a>
+            <ul id="navigation_over5">
+                <li><a href="">個人資料</a></li>
+                <li><a href="">我的課程</a></li>
+                <li><a href="">通知</a></li>
+                <li><a href="">設定</a></li>
+            </ul>
+           </li>
+            
+            
+            
+        </ul>
+        <i class="fas fa-bars" id="header_btn" onclick="cheng_btn()"></i>
+        </header>
+        <section class="main_course">
+            <div class="course_header">
+                <div><h1>英文</h1>
+                <h2>H3 Class初級文法</h2>
+                </div>
+                
+                <ul>
+                    <li><a href="##">點名</a></li>
+
+                    <li><a href="##" onclick="course_over(1)">成員</a>
+                        <ul id="course_header_over1">
+                            <li><a href="#">新增成員</a></li>
+                            <li><a href="#">成員確認</a></li>
+                        </ul>
+                    </li>
+
+                     <li><a href="##" onclick="course_over(2)">作業</a>
+                        <ul id="course_header_over2">
+                            <li><a href="#">已批改作業</a></li>
+                            <li><a href="#">未批改作業</a></li>
+                        </ul>
+                    </li>
+                     <li><a href="##" onclick="course_over(3)">成績</a>
+                        <ul id="course_header_over3">
+                            <li><a href="#">未批改試卷</a></li>
+                            <li><a href="#">學生成績</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="course_menu" id="course_menu">
+                <h3>所有課程</h3>
+                <ul>
+                    <li onclick="course_m_btn(1)">第一周 英文時態</li>
+                    <div id="course_menu_con1" class="course_menu_con">
+                         <p>第一章 現在式</p>
+                         <p>第二章 過去式</p>
+                         <div><a href="">+</a></div>
+                    </div>
+                       
+
+                </ul>
+                <ul>
+                    <li onclick="course_m_btn(2)">第二周 動詞名詞</li>
+                    <div id="course_menu_con2" class="course_menu_con">
+                         <p>第一章 動詞</p>
+                        <div><a href="">+</a></div>
+                    </div>
+                       
+                    
+
+                </ul>
+                <ul>
+                    <li onclick="course_m_btn(3)">第三周 ooxx</li>
+                    <div id="course_menu_con3" class="course_menu_con">
+                         <p>第一章 ooxx</p>
+                         <p>第一章 ooxx</p>
+                         <p>第一章 ooxx</p>
+                         <p>第一章 ooxx</p>
+                         <p>第一章 ooxx</p>
+                         <p>第一章 ooxx</p>
+                         <p>第一章 ooxx</p>
+                         <p>第一章 ooxx</p>
+                         
+                        <div><a href="">+</a></div>
+                    </div>
+                       
+                    
+
+                </ul>
+            </div>
+            <div class="course_centent">
+                <div class="menu_open_btn" onclick="menu_toggle()">
+                    <i class="fas fa-bars" id="menu_open_btn"></i>
+                </div>
+                <h4>第一周 英文時態</h4>
+                <div class="course_centent_text">
+                    <div><h5>第一章 現在式</h5></div>
+                    <div><h5>課程參考書：</h5><a href="#">English textbookA</a></div>
+                    <div><h5>課程作業：</h5><a href="#">present tense1</a></div>
+                    <div><a href="#"><img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder"></a></div>
+                    <div><h5>課間測驗：</h5><div><a href="#">測驗*2</a><a href="#">1.Test1</a><a href="#">2.Test2</a></div></div>
+                    <div><input type="submit" value="儲存" name=""><input type="submit" value="取消" name=""></div>
+
+
+                </div>
+            </div>
+        </section>
+
+         <footer class="footer">
+                <span class="footer-title">線上教學平台</span>
+                <p>Copyright @2021 <a href="#" title="">ABC</a>. All Rights Reserved.</p>
+            </footer>
+
+
+<script src="../script/menu.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
