@@ -16,15 +16,18 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
 .main_register i {
   color: #434861;
   font-size: 72px;
 }
+
 .main_register h1 {
   color: #434861;
   font-size: 36px;
   font-weight: bold;
 }
+
 .main_register .register {
   width: 500px;
   height: 600px;
@@ -44,6 +47,7 @@
           align-items: center;
   border-radius: 10px;
 }
+
 .main_register .register table {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,43 +60,51 @@
           align-items: center;
   height: 580px;
 }
+
 .main_register .register table tr {
   height: 50px;
 }
+
 .main_register .register table tr td {
   font-size: 20px;
   color: #333;
   width: 120px;
 }
+
 .main_register .register table tr .td-content {
   border-bottom: 1px #aaa solid;
   width: 300px;
 }
+
 .main_register .register table tr .td-content select {
   width: 300px;
 }
+
 .main_register .register table tr .td-content select option {
   width: 100px;
   height: 30px;
 }
+
 .main_register .register table tr .td-content input {
   width: 300px;
 }
+
 .main_register .register table tr .td-content input::-webkit-input-placeholder {
   color: #bbb;
 }
-.main_register .register table tr .td-content input::-moz-placeholder {
-  color: #bbb;
-}
+
 .main_register .register table tr .td-content input:-ms-input-placeholder {
   color: #bbb;
 }
+
 .main_register .register table tr .td-content input::-ms-input-placeholder {
   color: #bbb;
 }
+
 .main_register .register table tr .td-content input::placeholder {
   color: #bbb;
 }
+
 .main_register .register input {
   width: 200px;
   height: 35px;
@@ -102,22 +114,24 @@
   color: #434861;
   outline: none;
 }
+
 .main_register .register input::-webkit-input-placeholder {
   color: #ddd;
 }
-.main_register .register input::-moz-placeholder {
-  color: #ddd;
-}
+
 .main_register .register input:-ms-input-placeholder {
   color: #ddd;
 }
+
 .main_register .register input::-ms-input-placeholder {
   color: #ddd;
 }
+
 .main_register .register input::placeholder {
   color: #ddd;
 }
-.main_register .register input[type=submit] {
+
+.main_register .register input[type="submit"] {
   width: 100px;
   border: 1px #434861 solid;
   background: #434861;
@@ -126,10 +140,11 @@
   margin-bottom: 40px;
   font-weight: bold;
 }
-.main_register .register input[type=submit]:hover {
+
+.main_register .register input[type="submit"]:hover {
   background-color: transparent;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
   color: #434861;
 }
 
@@ -138,3 +153,4 @@
     width: 100%;
   }
 }
+/*# sourceMappingURL=register.css.map */

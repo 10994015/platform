@@ -19,6 +19,7 @@
           align-items: center;
   padding-top: 5em;
 }
+
 .credit_main .credit_title {
   width: 150px;
   height: 40px;
@@ -31,12 +32,14 @@
   left: 30px;
   font-weight: 600;
 }
+
 .credit_main .credit_year {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 100px;
 }
+
 .credit_main .credit_year a {
   width: 150px;
   height: 40px;
@@ -48,31 +51,40 @@
   margin: 0 10px;
   text-align: center;
 }
+
 .credit_main .credit_year a:hover {
   border-bottom: 2px solid #5B9BD5;
 }
+
 .credit_main table {
   width: 80%;
 }
+
 .credit_main table tr:nth-child(odd) {
   background: #EAEFF7;
 }
+
 .credit_main table tr:nth-child(even) {
   background: #D2DEEF;
 }
+
 .credit_main table tr th {
   font-size: 18px;
   height: 40px;
 }
+
 .credit_main span {
   margin-top: 30px;
 }
+
 .credit_main span a {
   font-size: 24px;
   color: #5B9BD5;
   font-weight: 600;
 }
+
 .credit_main span a i {
   color: #FF6D6D;
   margin-right: 5px;
 }
+/*# sourceMappingURL=credit.css.map */
